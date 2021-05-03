@@ -6,13 +6,13 @@ Data source: StreetEasy Apartment rental listings in Brooklyn, NY (~6,700+ data 
 
 Data features: 
 * Monthly Rent($)
-* # Rooms
-* # Bedrooms
-* # Bathrooms
+* No. Rooms
+* No. Bedrooms
+* No. Bathrooms
 * Square ft
 * Address
 * Amenities (Cooling, Heating, Pets, Parking, Laundry, etc.)
-* # Days on Market
+* No. Days on Market
 * Last price change
 * Building info (# Units, # Stories, Year Built)
 * Price History
