@@ -1,2 +1,4 @@
 /data
 .ipynb_checkpoints/testing-checkpoint.ipynb
+.DS_Store
+.ipynb_checkpoints/Web Scraping-checkpoint.ipynb
