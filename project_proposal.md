@@ -1,6 +1,6 @@
 # Apartment Regression
 
-
+## Project Proposal
 
 Data source: StreetEasy Apartment rental listings in Brooklyn, NY (~6,700+ data points)
 
