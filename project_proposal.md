@@ -15,7 +15,7 @@ Data features:
 * No. Rooms
 * No. Bedrooms
 * No. Bathrooms
-* Square ft
+* ~~Square ft~~ *upon preliminary scraping, it appears most listings don't have this information, unfortunately*
 * Address
 * Amenities (Cooling, Heating, Pets, Parking, Laundry, etc.)
 * No. Days on Market
