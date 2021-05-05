@@ -25,13 +25,15 @@ Data features:
 
 Derived Data: 
 * Rent($) per Bedroom; may be more relevant than the rent of an entire unit, since if there are multiple bedrooms it will be shared with roommates.
-* ZIP Codes, all in Brooklyn are between 11201 & 11256, and can be standardized easily
+* Geographical data, which can be found from listing address
 
 As a target, I will predict a direct correlation between most features, such as number of rooms and inclusion of amenities, with a higher rental cost. I also expect ther to be an indirect correlation between the number of days a listing has been on the market and its price. Finally, certain ZIP codes may be correlated with a higher rental price; for example, areas closer to downtown should generally be more expensive.
 
 ### Tools
 
 StreetEasy blocks direct web scraping, but using a WebDriver with Selenium allows me to get the html, which I can parse with BeautifulSoup. I will then import the data into a dataframe with Pandas, which I can use to train a regression model with Scikit-learn.
+
+I may also later learn the GeoPy library to obtain the longitude and latitude of a listing's address, and normalize these to use as data points.
 
 ### MVP Goal
 
