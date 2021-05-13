@@ -11,13 +11,38 @@ The goal of this project was to predict the monthly rent of apartments in Brookl
 
 ## Data
 
-~3,300 listings scraped from StreetEasy, removing observations with null target and independent variables reduced this to ~3,000. ~50 features, 3 (4 if including time since listed) are numerical, rest are categorical. The numerical features are the number of rooms, bedrooms, bathrooms, and the number of days the listing has been available. Categorical variables include amenities listed, the most common being *(list 5 most common here)*. Many of these features could be combined as they represent a similar feature, but are just worded differently.
+The initial dataset consists of 3,568 listings scraped from StreetEasy. This includes numerical features describing the number of rooms, bedrooms, and bathrooms that an apartment has, as well as how long it has been listed for. Removing rows with null values in these numerical feature columns reduced the dataset to 2,839 listings. Further cleaning consisted of removing outliers (i.e. rows where either the target variable or one of the numerical features was more than 3 standard deviations away from the mean); this reduced to data set to 2,758 rows. Categorical variables include amenities listed, the most common being *(list 5 most common here)*. Several of these columns could be removed as they were present very few times- others would later be nullified by a Lasso regression model.
 
 ## Algorithms
 
 ~3,000 observations, split into 80/20 train vs. holdout, calculate scores with 5-fold cross validation on training portion, 
 
+Models:
+
+* Simple linear regression
+* Polynomial regression
+* Lasso regression
+* 
+
+Results for 5-fold CV scores:
+
+
+Results for holdout data
+
 ## Tools
+
+#### Web scraping:
+* Selenium
+* BeautifulSoup
+* Pandas
+
+#### Regression:
+* Numpy
+* SciKitLearn
+
+#### Visualization:
+* Matplotlib
+* Seaborn
 
 ## Communication
 
