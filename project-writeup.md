@@ -3,7 +3,11 @@ Nicholas Dell'Aquilo
 
 ## Abstract
 
+The goal of this project was to predict the monthly rent of apartments in Brooklyn, NY, to determine whether an apartment is priced well according to its features. To do this, I scraped data from listings on [StreetEasy](https://streeteasy.com/for-rent/brooklyn). Data available included the number of bedrooms and bathrooms, as well as distinct features such as *(enter common amenities here).* With this data, I was able to build multiple regression models, starting with a simple linear regression and iterating to attempt to improve the model.
+
 ## Design
+
+
 
 ## Data
 
