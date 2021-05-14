@@ -19,24 +19,37 @@ The initial dataset consists of 3,568 listings scraped from StreetEasy. This inc
 
 Models:
 
-* Simple linear regression
-* Polynomial regression
+* Simple linear regression (LR1)
+* Linear regression with additional feature (LR2)
 * Lasso regression
 * Ridge regression
 
-Results for 5-fold CV scores:
+Results for 5-fold CV R<sup>2</sup> scores:
+
+* LR1:   [0.28465979 0.1833678 0.30504643 0.22958702 0.23047237],  Mean: 0.24662668197976534
+* LR2:   [0.28388198 0.18097879 0.30500836 0.22872147 0.2304566],  Mean: 0.24580943893799315
+* Lasso: [0.49804831 0.44783655 0.4972743  0.53026636 0.45429946], Mean: 0.4855449950510766
+* Ridge: [0.49047206 0.44821105 0.49420212 0.51774938 0.45261041], Mean: 0.480649006115532
 
 Results of each model on validation data:
 
-Results of final model on test data:
+* LR1: 0.24
+* LR2: 0.24
+* Lasso: 0.4655
+* Ridge: 0.4644
 
+Lasso was determined to be the best model.
+
+Results of final model when retrained including validation data:
+
+R<sup>2</sup> = 0.48
 
 ## Tools
 
 #### Web scraping:
-* Selenium
 * BeautifulSoup
 * Pandas
+* Selenium
 
 #### Regression:
 * Numpy
@@ -55,3 +68,5 @@ My web scraping code is located [here](https://github.com/nickdellaquilo/Apartme
 My regression code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Final%20Regression.ipynb).
 
 ![image](https://user-images.githubusercontent.com/22899761/118211459-1fd3a900-b43a-11eb-9062-7fd317acb268.png)
+
+![image](https://user-images.githubusercontent.com/22899761/118249286-419d5200-b473-11eb-8821-f29bd942e9af.png)
