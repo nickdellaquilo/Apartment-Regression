@@ -61,7 +61,7 @@ R<sup>2</sup> = 0.48
 
 ## Communication
 
-My presentation is located [here]().
+My presentation is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Apartment-Regression-Presentation.pdf).
 
 My web scraping code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Web%20Scraping.ipynb).
 
