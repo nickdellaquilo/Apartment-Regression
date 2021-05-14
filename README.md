@@ -7,7 +7,7 @@ Nicholas Dell'Aquilo
 
 ## [Project Writeup](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/project-writeup.md)
 
-## [Slides]()
+## [Slides](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Apartment-Regression-Presentation.pdf)
 
 ## [Web Scraping Code](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Web%20Scraping.ipynb)
 
