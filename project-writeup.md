@@ -53,3 +53,5 @@ My presentation is located [here]().
 My web scraping code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Web%20Scraping.ipynb).
 
 My regression code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Final%20Regression.ipynb).
+
+![image](https://user-images.githubusercontent.com/22899761/118211459-1fd3a900-b43a-11eb-9062-7fd317acb268.png)
