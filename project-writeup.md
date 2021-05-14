@@ -15,7 +15,7 @@ The initial dataset consists of 3,568 listings scraped from StreetEasy. This inc
 
 ## Algorithms
 
-~3,000 observations, split into 80/20 train vs. holdout, calculate scores with 5-fold cross validation on training portion, 
+2,839 observations were split into 60/20/20 train/validate/testing portions. R-squared scores were calculated with 5-fold cross validation on the training portion and evaluated on the validation portion. Once the best model was found, it was re-trained on the combined training and validation portions and used to predict the testing portion.
 
 Models:
 
