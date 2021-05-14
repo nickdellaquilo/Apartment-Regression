@@ -7,7 +7,7 @@ The goal of this project was to predict the monthly rent of apartments in Brookl
 
 ## Design
 
-
+The project was designed to be able to predict the monthly rental cost of apartments. While the models created could be used for any apartments in general, they were trained on data scraped from StreetEasy, filtered to the borough of Brooklyn. Being able to understand what features in an apartment cost could help to understand whether it is worth it to seek such a feature when looking for an apartment; for example, if a balcony adds $100 on average to the monthly rent, is it worth it? If the model is accurate enough, it could ideally be used to predict the cost of an apartment, so one would be able to tell whether a listing is overpriced or a good deal.
 
 ## Data
 
