@@ -22,12 +22,14 @@ Models:
 * Simple linear regression
 * Polynomial regression
 * Lasso regression
-* 
+* Ridge regression
 
 Results for 5-fold CV scores:
 
+Results of each model on validation data:
 
-Results for holdout data
+Results of final model on test data:
+
 
 ## Tools
 
@@ -46,8 +48,6 @@ Results for holdout data
 
 ## Communication
 
-
-
-
-
-note: apartment prices tend to be "round" values (divisible by 100 if possible, 50 or 25 otherwise), so linear predictions can't be truly accurate- assume that leaser will round up
+My presentation is located [here]().
+My web scraping code is located [here]().
+My regression code is located [here]().
