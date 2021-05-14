@@ -49,5 +49,7 @@ Results of final model on test data:
 ## Communication
 
 My presentation is located [here]().
-My web scraping code is located [here]().
-My regression code is located [here]().
+
+My web scraping code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Web%20Scraping.ipynb).
+
+My regression code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Final%20Regression.ipynb).
