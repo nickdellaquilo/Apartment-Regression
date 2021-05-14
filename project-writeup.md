@@ -7,7 +7,7 @@ The goal of this project was to predict the monthly rent of apartments in Brookl
 
 ## Design
 
-
+The project was designed to be able to predict the monthly rental cost of apartments. While the models created could be used for any apartments in general, they were trained on data scraped from StreetEasy, filtered to the borough of Brooklyn. Being able to understand what features in an apartment cost could help to understand whether it is worth it to seek such a feature when looking for an apartment; for example, if a balcony adds $100 on average to the monthly rent, is it worth it? If the model is accurate enough, it could ideally be used to predict the cost of an apartment, so one would be able to tell whether a listing is overpriced or a good deal.
 
 ## Data
 
@@ -15,19 +15,21 @@ The initial dataset consists of 3,568 listings scraped from StreetEasy. This inc
 
 ## Algorithms
 
-~3,000 observations, split into 80/20 train vs. holdout, calculate scores with 5-fold cross validation on training portion, 
+2,839 observations were split into 60/20/20 train/validate/testing portions. R-squared scores were calculated with 5-fold cross validation on the training portion and evaluated on the validation portion. Once the best model was found, it was re-trained on the combined training and validation portions and used to predict the testing portion.
 
 Models:
 
 * Simple linear regression
 * Polynomial regression
 * Lasso regression
-* 
+* Ridge regression
 
 Results for 5-fold CV scores:
 
+Results of each model on validation data:
 
-Results for holdout data
+Results of final model on test data:
+
 
 ## Tools
 
@@ -46,8 +48,10 @@ Results for holdout data
 
 ## Communication
 
+My presentation is located [here]().
 
+My web scraping code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Web%20Scraping.ipynb).
 
+My regression code is located [here](https://github.com/nickdellaquilo/Apartment-Regression/blob/master/Final%20Regression.ipynb).
 
-
-note: apartment prices tend to be "round" values (divisible by 100 if possible, 50 or 25 otherwise), so linear predictions can't be truly accurate- assume that leaser will round up
+![image](https://user-images.githubusercontent.com/22899761/118211459-1fd3a900-b43a-11eb-9062-7fd317acb268.png)
